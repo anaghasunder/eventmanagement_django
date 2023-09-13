@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'eventmanagementproject.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-    'default': dj_database_url.config(default='your_default_database_url')
+    'default': dj_database_url.config(default='postgres://eventmanagement_opef_user:wVvWF3yC6w3ZVTt6JqprkNrpDUnlHbSL@dpg-ck0nvspjbtgs73e7tnm0-a/eventmanagement_opef')
 }
 
 
